@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ByteGeniuses</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <div class="left-side">
+        <div class="logo">STOCK ANALYSIS</div>
+      </div>
+      <div class="right-side">
+        <ul class="right-links">
+          <li><a href="#">Home</a></li>
+          <li class="active"><a href="#">Product</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="login">Login</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <button class="right-bar">
+        <span class="bar"></span>
+      </button>
+    </header>
+    <div class="mobile-nav">
+      <ul class="right-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="rethome">Product</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="banner">
+      <h1></h1>
+      <div class="link1">
+        <h2>
+          <a href="https://www.moneycontrol.com/stocksmarketsindia/">
+            CLICK FOR STOCK UPDATES!!!!</a
+          >
+        </h2>
+        >
+      </div>
+    </div>
+    <footer>
+      <p>Satheesh, Ashish, Surya, Shifa</p>
+      <p>Click on the link below to subscribe to get more details about us:</p>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-dribbble"></i></a>
+        <a href="https://www.youtube.com/channel/UCEHQ8NXEzUaT0eqYult1AuQ/"
+          ><i class="fab fa-youtube"></i
+        ></a>
+      </div>
+      <p class="end">CopyRight @2024 ByteGeniuses</p>
+    </footer>
+    <script src="{% static 'script.js' %}"></script>
+  </body>
+</html>
